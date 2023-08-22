@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link} from "react-router-dom";
 
 
 const Navigation = () => {
@@ -17,7 +17,7 @@ const Navigation = () => {
             <div className="fulcro-logo">
                 <Link to="/">
                 <img
-                    src="/images/logo.png"
+                    src="/assets/images/logo.png"
                     alt="Fulcro Logo"
                     title="Fulcro Logo"
                     width="156"
@@ -27,7 +27,7 @@ const Navigation = () => {
             </div>
             <div className="search desktop-hide">
                 <img
-                src="/images/magnifying-glass.svg"
+                src="/assets/images/magnifying-glass.svg"
                 className="open-search"
                 alt="magnifying glass"
                 title="magnifying glass"
@@ -70,7 +70,7 @@ const Navigation = () => {
                 <li className="mobile-hide search">
                     <Link to="#" className="open-search">
                     <img
-                        src="/images/magnifying-glass.svg"
+                        src="/assets/images/magnifying-glass.svg"
                         alt="magnifying glass"
                         title="magnifying glass"
                         width="20"
@@ -85,13 +85,13 @@ const Navigation = () => {
         {/* <div className="menu-height"></div>
         <section className="search-overlay">
           <div className="search-close">
-            <img src="/images/close.svg" className="close-search" title="Close" alt="Close" width="20" height="20" />
+            <img src="/assets/images/close.svg" className="close-search" title="Close" alt="Close" width="20" height="20" />
           </div>
           <div className="serch-box">
             <input type="text" name="" id="search-calc" placeholder="Enter your keywords..." />
             <div className="magnifying-glass">
               <img
-                src="/images/magnifying-glass.svg"
+                src="/assets/images/magnifying-glass.svg"
                 title="magnifying glass"
                 alt="magnifying glass"
                 width="20"

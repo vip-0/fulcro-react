@@ -226,7 +226,7 @@ header.darkHeader .search img{padding-top:20px;}
 .counter h1{font-size:40px;color:#fff;font-weight:700;padding:10px 0;}
 .counter h4{margin-top:10px;font-size:18px;font-weight:300;}
 .counter p{color:#fff;margin-bottom:0;}
-.parallax{padding:80px 0;text-align:center;background:url(../images/vr-image.jpeg) no-repeat center;background-attachment:fixed;position:relative;}
+.parallax{padding:80px 0;text-align:center;background:url(/public/assets/images/vr-image.jpeg) no-repeat center;background-attachment:fixed;position:relative;}
 .parallax .content{position:relative;z-index:99;}
 .parallax .content h1{color:#fff;max-width:55%;font-size:36px;line-height:36px;margin:auto;font-weight:700;}
 .parallax-overlay{position:absolute;height:100%;width:100%;top:0;left:0;opacity:0.6;background-color:#0a0a0a;z-index:9;}
@@ -664,7 +664,7 @@ header.darkHeader .search img{padding-top:20px;}
     margin-bottom: 15px;
    -webkit-box-shadow:0 1px 10px rgba(0, 0, 0, .1);
    -moz-box-shadow:0 1px 10px rgba(0, 0, 0, .1);
-   box-shadow:0 1px 10px rgba(0, 0, 0, .1);}
+   box-shadow:0 1px 10px rgba(0, 0, 0, .1);
 
 }
 

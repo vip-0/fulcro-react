@@ -4,24 +4,20 @@ import React from 'react'
 const Banner = () => {
   return (
     <div>
-      <section ClassName="main-banner">
+      <section className="main-banner">
         <div>
-            <span ClassName="mobile-hide">
+            <span className="mobile-hide">
                 <img
-                    ClassName="lazyload"
-                    src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMgIyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wgARCAAmAGQDAREAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAACzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH//EABQQAQAAAAAAAAAAAAAAAAAAAGD/2gAIAQEAAT8AA//EABQRAQAAAAAAAAAAAAAAAAAAAGD/2gAIAQIBAT8AA//EABQRAQAAAAAAAAAAAAAAAAAAAGD/2gAIAQMBAT8AA//Z"
-                    data-src="images/banner.jpg"
+                    src="/assets/images/banner.jpg"
                     width="1920"
                     height="772"
                     alt=""
                     title=""
                 />
             </span>
-            <span ClassName="desktop-hide">
+            <span className="desktop-hide">
                 <img
-                    ClassName="lazyload"
-                    src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMgIyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wgARCAAjADIDAREAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAf/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIQAxAAAACzAAAAAAAAAAAAAAAAAH//xAAUEAEAAAAAAAAAAAAAAAAAAABQ/9oACAEBAAE/AA//xAAUEQEAAAAAAAAAAAAAAAAAAABQ/9oACAECAQE/AA//xAAUEQEAAAAAAAAAAAAAAAAAAABQ/9oACAEDAQE/AA//2Q=="
-                    data-src="images/banner-mobile.jpg"
+                    src="/assets/images/banner-mobile.jpg"
                     width="1280"
                     height="900"
                     alt=""
@@ -29,9 +25,9 @@ const Banner = () => {
                 />
             </span>
         </div>
-        <div ClassName="clear">
-            <div ClassName="max_width">
-                <div ClassName="banner-content">
+        <div className="clear">
+            <div className="max_width">
+                <div className="banner-content">
                     <h1>
                         EXPONENTIAL <br />
                         NOT INCREMENTAL
